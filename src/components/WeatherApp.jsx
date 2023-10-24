@@ -10,7 +10,7 @@ import wind_icon from "./Assets/wind.png";
 import { useState } from "react";
 
 const WeatherApp = () => {
-  let api_key = "da077f64633fcb8bc99753aec5c3eebd";
+  let api_key = "";
 
   const [wicon, setWicon] = useState(sun_icon);
 
